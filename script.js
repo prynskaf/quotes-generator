@@ -176,3 +176,13 @@ btn.addEventListener("click", function(){
 
 })
 
+
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.querySelector('button');
+
+  button.addEventListener('touchstart', function(event) {
+    event.preventDefault();
+  });
+});
+
+
