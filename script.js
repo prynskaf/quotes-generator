@@ -186,3 +186,12 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+document.addEventListener('DOMContentLoaded', function() {
+  function disableZoom(event) {
+    event.preventDefault();
+  }
+
+  document.addEventListener('touchmove', disableZoom, { passive: false });
+});
+
+
