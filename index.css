@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* mobile first */
 body {
      font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,6 +15,15 @@ body {
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
+
+/* CSS Styles */
+@viewport {
+    width: device-width;
+    initial-scale: 1;
+    maximum-scale: 1;
+    user-zoom: fixed;
+}
+
 
 
 .container {
