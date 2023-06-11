@@ -11,7 +11,7 @@ The Quote Generator is a web application that generates random quotes. The main 
 - JavaScript
 
 ## Demo
-You can try out the live version of the project [here](https://prynskaf.github.io/quotes-generator/).
+You can try out the live version of the project [here](https://singular-lollipop-cc5774.netlify.app).
 
 ## Features
 - Random quote generation: The application generates a random quote each time the user clicks a button.
